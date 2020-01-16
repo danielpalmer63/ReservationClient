@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <button onclick="addUserName();">Add username</button>
+  <input placeholder="Username" type="text" id="addUserNametext"></input></br>
+
+  <button onclick="getUserNameInfo();">Get reservation</button>
+  <input placeholder="Username" type="text" id="getUserNameInfo"></input></br>
+
+  <button onclick="createReservation();">Create reservation</button>
+  <input placeholder="Username" type="text" id="createUserNameText"></input>
+  <input placeholder="Start Date" type="text" id="createStartDateText"></input>
+  <input placeholder="Start Time" type="text" id="createStartTimeText"></input></br>
+
+  <button onclick="updateReservation();">Update reservation</button>
+  <input placeholder="Username" type="text" id="updateUserNameText"></input>
+  <input placeholder="Start Date" type="text" id="updateStartDateText"></input>
+  <input placeholder="Start Time" type="text" id="updateStartTimeText"></input></br>
+
+  <button onclick="deleteReservation();">Delete reservation</button>
+  <input placeholder="Username" type="text" id="deleteUserNameText"></input></br>
+
+</br>
+
+  <button type="button" onclick="displayAllRes();">Display all reservations</button></br>
+  <table border="1">
+    <tbody id="content">
+      <tr>
+        <th>Username</th>
+        <th>Start Date</th>
+        <th>Start Time</th>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+  <script src="client.js" defer></script>
+</body>
